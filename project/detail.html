@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> </meta>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <title>招聘网站-工作详情</title>
+
+        <!-- 重置样式 -->
+        <link rel="stylesheet" href="./css/reset.css">
+        <!-- 外部样式 -->
+        <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <div id="_nuxt">
+        <!--  -->
+        <div id="_layout">
+            <div id="app">
+              <div class="head">
+                  这里是头部
+              </div>
+              <main style="background-color: unset;min-height: unset;">
+                <div class="job-details page-container">
+                  <div class="head-container ">
+                    <div class="universal-container">
+                      <a class="back" href="home.html"> <img src="./images/circle_right_arrow_direction_icon.png" alt=""> </a>
+                    </div>
+                  </div>
+                  <div class="content-container">
+                    <div class="universal_container">
+                      <div class="top">
+                        <div class="left">
+                          <img class="logo" src="../images/【哲风壁纸】森林-车站.png" alt="company logo">
+                          <div class="content">
+                            <div class="title">Backend/AI</div>
+                            <div class="info">
+                              <div class="company">Company</div>
+                              <div class="job-type">Full Time</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="btns">
+                          <button id="applyButton" style="padding: 10px 20px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Apply Now</button>
+                          <!-- 遮罩层 -->
+                          <div class="overlay" id="overlay"></div>
+                          <!-- 弹窗内容 -->
+                          <div class="modal" id="applyModal">
+                            <span class="close-btn">&times;</span>
+                            
+                            <form>
+                              <label>Name</label>
+                              <input type="text" placeholder="Enter your name">
+                              
+                              <label>Email</label>
+                              <input type="email" placeholder="Enter your Email">
+                              
+                              <label>Upload Resume</label>
+                              <div class="file-upload">
+                                <label for="resume">选择文件</label>
+                                <span id="file-name">未选择文件</span>
+                                <input type="file" id="resume" accept=".pdf,.doc,.docx">
+                              </div>
+                              <p class="file-note">Support PDF, DOC, and other formats</p>
+                              
+                              <label>Introduction</label>
+                              <textarea placeholder="Enter your introduction"></textarea>
+                              
+                              <button type="submit">Submit</button>
+                            </form>
+                          </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-box">
+                        <div class="content-text">
+                          <span>job information
+
+                          </span>
+                        </div>
+                        <div class="content-info">
+                          <div class="job-view">
+                            <div class="sub-title">Job Overview</div>
+                            <div class="top-lable">SALARY</div>
+                            <div class="top-value green"></div>
+                            <div class="top-desc">Monthly salary</div>
+                            <div class="top-lable">JOB LOCATION</div>
+                            <div class="top-value">Remote</div>
+                            <div class="line"></div>
+                            <ul>
+                              <li>
+                                <img src="./images/calander.png" alt="posted time">
+                                <div class="label">Job Posted:</div>
+                                <div class="value">2024-10-24</div>
+                              </li>
+                              <li>
+                                <img src="./images/clock.png" alt="clock">
+                                <div class="label">Job Posted:</div>
+                                <div class="value">2024-10-24</div>
+                              </li>
+                              <li>
+                                <img src="./images/experience.png" alt="experience">
+                                <div class="label">Job Posted:</div>
+                                <div class="value">2024-10-24</div>
+                              </li>
+                              <li>
+                                <img src="./images/education.png" alt="education">
+                                <div class="label">Job Posted:</div>
+                                <div class="value">2024-10-24</div>
+                              </li>
+                              <li class="full">
+                                <img src="./images/skills.png" alt="skills">
+                                <div class="label">Job Posted:</div> 
+                                <div class="value">asbnhdiuo qhduwhdkljas hdjklndjka hbasjkdhask jlhfjakslhfkjhkjfsahkjlhafskjlsahfkjlashfkljashfjklash</div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+              </main>
+            </div>
+        </div>
+    </div>
+    <script charset="UTF-8" src="./js/index.js"></script>
+  </body>
+</html>
